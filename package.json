@@ -1,0 +1,32 @@
+{
+  "name": "@jtjs/browser",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "JTJS utilities that only work in the browser.",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "module": "./dist/jtjs_browser.js",
+  "exports": {
+    ".": {
+      "import": "./dist/jtjs_browser.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "@jtjs/event": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "happy-dom": "^15.7.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vitest": "^2.1.1"
+  }
+}
