@@ -1,6 +1,6 @@
 {
   "name": "@jtjs/browser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "JTJS utilities that only work in the browser.",
   "type": "module",
@@ -10,12 +10,17 @@
   "module": "./dist/jtjs_browser.js",
   "exports": {
     ".": {
-      "import": "./dist/jtjs_browser.js"
+      "import": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/jtjs_browser.js"
+      }
     }
   },
+  "types": "./dist/types/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && npm run build:types",
+    "build:types": "tsc --project tsconfig.build.json",
     "preview": "vite preview",
     "test": "vitest"
   },

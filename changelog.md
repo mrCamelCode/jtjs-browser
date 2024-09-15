@@ -1,4 +1,9 @@
+# 1.0.1
+
+- Fixed types not being bundled.
+
 # 1.0.0
+
 ## Breaking Changes
 - Library now only exports ESM.
 
