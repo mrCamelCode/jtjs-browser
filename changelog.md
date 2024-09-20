@@ -1,3 +1,9 @@
+# 2.0.0
+
+## Breaking Changes
+
+- Bumped `@jtjs/event` peer dependency to version `^2.0.0`.
+
 # 1.0.1
 
 - Fixed types not being bundled.

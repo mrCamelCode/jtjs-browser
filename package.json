@@ -1,6 +1,6 @@
 {
   "name": "@jtjs/browser",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "license": "MIT",
   "description": "JTJS utilities that only work in the browser.",
   "type": "module",
@@ -25,7 +25,7 @@
     "test": "vitest"
   },
   "peerDependencies": {
-    "@jtjs/event": "^1.0.0"
+    "@jtjs/event": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.5.4",
