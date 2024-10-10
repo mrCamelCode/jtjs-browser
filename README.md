@@ -1,1 +1,3 @@
-This package is a WIP and is not advised for use.
+# @jtjs/browser
+
+Our documentation got a glow-up! You can now find all JTJS documentation at [jtjs.dev](https://jtjs.dev).
